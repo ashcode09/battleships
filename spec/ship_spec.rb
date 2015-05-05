@@ -10,6 +10,6 @@ describe Ship do
   end
 
   it 'has a defined size of \'1\'' do
-    expect(subject.ship_size).to eq 1
+    expect(subject.ship_size).to be(1 || 2 || 3 )
   end
 end

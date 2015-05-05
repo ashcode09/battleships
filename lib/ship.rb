@@ -4,6 +4,6 @@ class Ship
   end
 
   def ship_size
-    1
+    1 || 2 || 3
   end
 end

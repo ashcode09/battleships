@@ -28,11 +28,9 @@ feature 'There is a range of ship sizes to choose from' do
   scenario 'There\'s a ship with size of \'1\'' do
     ship = Ship.new
     expect(ship).to respond_to :ship_size
-    expect(ship.ship_size).to eq 1
+    expect(ship.ship_size).to be(1 || 2 || 3 )
   end
 end
-    # there's an array 'ships' containing 1 ship with a 'size' property
-    # you can pick it and/or place it
 
 
 
