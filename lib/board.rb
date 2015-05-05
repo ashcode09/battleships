@@ -13,6 +13,8 @@ class Board
     false
   end
 
+
+
   # def initialize
   #   @playing_field = ['A1', 'A2', 'B1', 'B2']
   # end

@@ -24,15 +24,15 @@ feature 'Ships are constrained to be placed on the board only' do
   end
 end
 
-feature 'There is a range of ship sizes'
-  scenario 'Player is asked to pick and place different ships until they\'re gone'
-    board = Board.new
+feature 'There is a range of ship sizes to choose from' do
+  scenario 'There\'s a ship with size of \'1\'' do
     ship = Ship.new
-    # player is given 2 options
-    # player chooses one ship
-    # player places ship
-    # player is given remaining ship
-    # player places ship
+    expect(ship).to respond_to :ship_size
+    expect(ship.ship_size).to eq 1
+  end
+end
+    # there's an array 'ships' containing 1 ship with a 'size' property
+    # you can pick it and/or place it
 
 
 
