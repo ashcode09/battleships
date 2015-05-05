@@ -13,21 +13,4 @@ class Board
     false
   end
 
-
-
-  # def initialize
-  #   @playing_field = ['A1', 'A2', 'B1', 'B2']
-  # end
-
-  # def within_board? player_writes
-  #   if @playing_field.include?(player_writes)
-  #     store_location
-  #   else
-  #     fail "Ship can't be placed outside of board"
-  #   end
-  # end
-
-
-
-
 end
